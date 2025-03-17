@@ -195,10 +195,7 @@ function Contact() {
               <div className="modal">
                 <div className="modal-content">
                   <h2>Form Submitted Successfully!</h2>
-                  <button
-                    onClick={() => setShowModal(false)}
-                    className="btn btn-primary"
-                  >
+                  <button onClick={() => setShowModal(false)} className="btn btn-primary">
                     Close
                   </button>
                 </div>
