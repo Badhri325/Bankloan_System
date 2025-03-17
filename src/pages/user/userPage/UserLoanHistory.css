@@ -1,0 +1,52 @@
+.loan-history {
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .loan-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .loan-table th,
+  .loan-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .loan-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+  }
+  
+  .loan-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .loan-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .status-approved {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .status-rejected {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  .status-pending {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+  }
+  

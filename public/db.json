@@ -1,0 +1,404 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "email": "user@gmail.com",
+      "password": "User@123"
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "imgSrc": "service_logo1.png",
+      "title": "Business Loan",
+      "description": "Every business needs constant capital to ensure expansion and long-term sustainability.",
+      "buttonText": "Apply Now"
+    },
+    {
+      "id": 2,
+      "imgSrc": "service_logo2.png",
+      "title": "Education Loan",
+      "description": "We offer instant education loans to students pursuing higher education in India and abroad.",
+      "buttonText": "Apply Now"
+    },
+    {
+      "id": 3,
+      "imgSrc": "service_logo3.png",
+      "title": "Agriculture Loan",
+      "description": "Check eligibility, features, benefits, interest rates, best offers and apply online to get instant approval.",
+      "buttonText": "Apply Now"
+    }
+  ],
+
+  "table": {
+    "businessloan": [
+      {
+        "id": 1,
+        "BusinessName": "TeaShop with a Small Hotel",
+        "BusinessType": "TeaShop",
+        "BusinessAddress": "Ettimadai, Coimbatore",
+        "BusinessEstablished": "2nd Branch of TeaShop",
+        "LoanAmount": 100000,
+        "LoanPurpose": "Business Expansion",
+        "OwnerName": "Tamil",
+        "OwnerContact": "9159552150",
+        "OwnerEmail": "tamil@gmail.com",
+        "OwnerAddress": "Ettimadai, Coimbatore"
+      },
+      {
+        "id": 2,
+        "BusinessName": "Hotel",
+        "BusinessType": "Hotel Business",
+        "BusinessAddress": "Chennai",
+        "BusinessEstablished": "new Branch of Hotel",
+        "LoanAmount": 500000,
+        "LoanPurpose": "Business Expansion",
+        "OwnerName": "Nishanth",
+        "OwnerContact": "9946372860",
+        "OwnerEmail": "nishanth@gmail.com",
+        "OwnerAddress": "Chennai"
+      },
+      {
+        "id": 3,
+        "BusinessName": "Super Market",
+        "BusinessType": "Super Market",
+        "BusinessAddress": "Karur",
+        "BusinessEstablished": "5th Branch of Super Market",
+        "LoanAmount": 1000000,
+        "LoanPurpose": "Business Expansion",
+        "OwnerName": "Mohan",
+        "OwnerContact": "9276849320",
+        "OwnerEmail": "mohan@gmail.com",
+        "OwnerAddress": "Karur"
+      },
+      {
+        "id": 4,
+        "BusinessName": "Shopping Mall",
+        "BusinessType": "Shopping Mall",
+        "BusinessAddress": "Coimbatore",
+        "BusinessEstablished": "New Shopping Mall",
+        "LoanAmount": 1500000,
+        "LoanPurpose": "Business Expansion",
+        "OwnerName": "Vishnu",
+        "OwnerContact": "9842356610",
+        "OwnerEmail": "vishnu@gmail.com",
+        "OwnerAddress": "Coimbatore"
+      },
+      {
+        "id": 5,
+        "BusinessName": "Mobile Shop",
+        "BusinessType": "Mobile Shop",
+        "BusinessAddress": "Krishnagiri",
+        "BusinessEstablished": "NewShop",
+        "LoanAmount": 500000,
+        "LoanPurpose": "Business Expansion",
+        "OwnerName": "Sarathi",
+        "OwnerContact": "9159552150",
+        "OwnerEmail": "sarathi@gmail.com",
+        "OwnerAddress": "Krishnagiri"
+      }
+    ],
+
+    "educationloan": [
+      {
+        "id": 1,
+        "CourseName": "Computer Science",
+        "InstituteName": "PSG University",
+        "InstituteAddress": "123 Main St, Coimbatore",
+        "CourseDuration": "3 Years",
+        "LoanAmount": 1000000,
+        "LoanPurpose": "Higher Education",
+        "StudentName": "Avinash",
+        "StudentContact": "9834545910",
+        "StudentEmail": "avinash@gmail.com",
+        "StudentAddress": "456 Elm St, Coimbatore"
+      },
+      {
+        "id": 2,
+        "CourseName": "Master of Computer Science",
+        "InstituteName": "CIT ",
+        "InstituteAddress": "Coimbatore",
+        "CourseDuration": "2 Years",
+        "LoanAmount": 500000,
+        "LoanPurpose": "Higher Education",
+        "StudentName": "Badhri",
+        "StudentContact": "9159552150",
+        "StudentEmail": "badhri@gmail.com",
+        "StudentAddress": "Coimbatore"
+      },
+      {
+        "id": 3,
+        "CourseName": "Master of Computer Application",
+        "InstituteName": "PSG University",
+        "InstituteAddress": "123 Main St, Coimbatore",
+        "CourseDuration": "2 Years",
+        "LoanAmount": 800000,
+        "LoanPurpose": "Higher Education",
+        "StudentName": "Vishnu",
+        "StudentContact": "9836384810",
+        "StudentEmail": "vishnu@gmail.com",
+        "StudentAddress": "456 Elm St, Coimbatore"
+      },
+      {
+        "id": 4,
+        "CourseName": "MBBS",
+        "InstituteName": "PSG University",
+        "InstituteAddress": "123 Main St, Coimbatore",
+        "CourseDuration": "4 Years",
+        "LoanAmount": 2500000,
+        "LoanPurpose": "Higher Education",
+        "StudentName": "Nigunthan",
+        "StudentContact": "9345772751",
+        "StudentEmail": "nigunthan@gmail.com",
+        "StudentAddress": "456 Elm St, Coimbatore"
+      },
+      {
+        "id": 5,
+        "CourseName": "Master of Business Application",
+        "InstituteName": "Anna University",
+        "InstituteAddress": "Chennai",
+        "CourseDuration": "2 Years",
+        "LoanAmount": 500000,
+        "LoanPurpose": "Higher Education",
+        "StudentName": "Mohan",
+        "StudentContact": "9654389760",
+        "StudentEmail": "mohan@gmail.com",
+        "StudentAddress": "Chennai"
+      }
+    ],
+
+    "agricultureloan": [
+      {
+        "id": 1,
+        "FarmName": "Green Valley Farm",
+        "FarmSize": "50 Acres",
+        "CropType": "Paddy",
+        "Location": "Thanjavur, Tamil Nadu",
+        "LoanAmount": 200000,
+        "LoanPurpose": "Purchase of farming equipment",
+        "FarmerName": "Arun Kumar",
+        "FarmerContact": "9876543210",
+        "FarmerEmail": "arunfarmer@gmail.com",
+        "FarmerAddress": "Thanjavur, Tamil Nadu"
+      },
+      {
+        "id": 2,
+        "FarmName": "Solar Pump Set Loan",
+        "FarmSize": "20 Acres",
+        "CropType": "Paddy",
+        "Location": "Coimbatore, Tamil Nadu",
+        "LoanAmount": 100000,
+        "LoanPurpose": "Purchase of Solar equipment",
+        "FarmerName": "Kumar",
+        "FarmerContact": "9964646820",
+        "FarmerEmail": "kumarfarmer@gmail.com",
+        "FarmerAddress": "Coimbatore, Tamil Nadu"
+      },
+      {
+        "id": 3,
+        "FarmName": "Crops",
+        "FarmSize": "5 Acres",
+        "CropType": "Cotton",
+        "Location": "Salem, Tamil Nadu",
+        "LoanAmount": 50000,
+        "LoanPurpose": "Purchase of farming equipment",
+        "FarmerName": "Nishanth",
+        "FarmerContact": "6380464736",
+        "FarmerEmail": "nishanthfarmer@gmail.com",
+        "FarmerAddress": "Salem, Tamil Nadu"
+      },
+      {
+        "id": 4,
+        "FarmName": "Warehouse",
+        "FarmSize": "5 Acres",
+        "CropType": "Paddy",
+        "Location": "Krishnagiri, Tamil Nadu",
+        "LoanAmount": 200000,
+        "LoanPurpose": "Purchase of Warehouse equipment",
+        "FarmerName": "Ram Kumar",
+        "FarmerContact": "9876384258",
+        "FarmerEmail": "ramkumarfarmer@gmail.com",
+        "FarmerAddress": "Krishnagiri, Tamil Nadu"
+      },
+      {
+        "id": 5,
+        "FarmName": "Tractors",
+        "FarmSize": "10 Acres",
+        "CropType": "Paddy",
+        "Location": "Thanjavur, Tamil Nadu",
+        "LoanAmount": 1200000,
+        "LoanPurpose": "Purchase of farming Tractors",
+        "FarmerName": "Sarathi",
+        "FarmerContact": "9876543210",
+        "FarmerEmail": "sarathifarmer@gmail.com",
+        "FarmerAddress": "Thanjavur, Tamil Nadu"
+      }
+    ]
+  },
+  "report": [
+    {
+      "id": 1,
+      "loanType": "Agriculture Loan",
+      "name": "Sarathi",
+      "contact": "9876543210",
+      "email": "sarathi9155@gmail.com",
+      "loanAmount": 50000,
+      "reason": "To purchase farming equipment",
+      "date": "2024-01-11"
+    },
+    {
+      "id": 2,
+      "loanType": "Business Loan",
+      "name": "Badhri",
+      "contact": "9871234567",
+      "email": "badhrinarayanan325@gmail.com",
+      "loanAmount": 200000,
+      "reason": "To expand my online business",
+      "date": "2024-02-05"
+    },
+    {
+      "id": 3,
+      "loanType": "Education Loan",
+      "name": "Nigunthan",
+      "contact": "7894561230",
+      "email": "nigunthan1209@gmail.com",
+      "loanAmount": 100000,
+      "reason": "To pursue higher studies",
+      "date": "2024-03-10"
+    },
+    {
+      "id": 4,
+      "loanType": "Education Loan",
+      "name": "Nishanth",
+      "contact": "7564382890",
+      "email": "nishanth1209@gmail.com",
+      "loanAmount": 100000,
+      "reason": "higher studies",
+      "date": "2024-04-10"
+    },
+    {
+      "id": 5,
+      "loanType": "Bussiness Loan",
+      "name": "Vinoth Kumar",
+      "contact": "8456372610",
+      "email": "vinothkumar@gmail.com",
+      "loanAmount": 800000,
+      "reason": "New Mobile Shop",
+      "date": "2024-05-20"
+    },
+    {
+      "id": 6,
+      "loanType": "Agriculture Loan",
+      "name": "Hemanth kumar",
+      "contact": "9345880848",
+      "email": "hemanthkumar@gmail.com",
+      "loanAmount": 1000000,
+      "reason": "Land Farming",
+      "date": "2024-06-18"
+    }
+  ],
+  "paymentdetails":[
+    {
+      "id": 1,
+      "loanType": "Agriculture Loan",
+      "name": "Sarathi",
+      "contact": "9876543210",
+      "email": "sarathi9155@gmail.com",
+      "loanAmount": 50000,
+      "transaction": "735243645372",
+      "date": "2024-01-11"
+    },
+    {
+      "id": 2,
+      "loanType": "Business Loan",
+      "name": "Badhri",
+      "contact": "9871234567",
+      "email": "badhrinarayanan325@gmail.com",
+      "loanAmount": 200000,
+      "transaction": "987657486861",
+      "date": "2024-02-05"
+    },
+    {
+      "id": 3,
+      "loanType": "Education Loan",
+      "name": "Nigunthan",
+      "contact": "7894561230",
+      "email": "nigunthan1209@gmail.com",
+      "loanAmount": 100000,
+      "transaction": "193847564879",
+      "date": "2024-03-10"
+    },
+    {
+      "id": 4,
+      "loanType": "Education Loan",
+      "name": "Nishanth",
+      "contact": "7564382890",
+      "email": "nishanth1209@gmail.com",
+      "loanAmount": 100000,
+      "transaction": "865473847411",
+      "date": "2024-04-10"
+    },
+    {
+      "id": 5,
+      "loanType": "Bussiness Loan",
+      "name": "Vinoth Kumar",
+      "contact": "8456372610",
+      "email": "vinothkumar@gmail.com",
+      "loanAmount": 800000,
+      "transaction": "111245968463",
+      "date": "2024-05-20"
+    },
+    {
+      "id": 6,
+      "loanType": "Agriculture Loan",
+      "name": "Hemanth kumar",
+      "contact": "9345880848",
+      "email": "hemanthkumar@gmail.com",
+      "loanAmount": 1000000,
+      "transaction": "143613262412",
+      "date": "2024-06-18"
+    }
+  ],
+  "Message":
+  [
+    {
+      "name": "Avinash",
+      "email": "avinash@gmail.com",
+      "phone": "9875642130",
+      "message": "Hello! I would like to inquire about your services."
+    },
+    {
+      "name": "Hemanth kumar",
+      "email": "hemanthkumar@gmail.com",
+      "phone": "9345880848",
+      "message": "Can you provide me with a quote for your offerings?"
+    },
+    {
+      "name": "Sarathi",
+      "email": "sarathi9155@gmail.com",
+      "phone": "9159552150",
+      "message": "I’m interested in collaborating on a project. Please contact me."
+    },
+    {
+      "name": "Hari",
+      "email": "hari@gmail.com.com",
+      "phone": "6548752120",
+      "message": "Do you offer support services? Let me know."
+    },
+    {
+      "name": "Srinivash",
+      "email": "srinivash@gmail.com",
+      "phone": "7345821690",
+      "message": "Looking forward to discussing more details with your team."
+    }
+  ]
+  
+}

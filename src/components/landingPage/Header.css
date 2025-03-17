@@ -1,0 +1,58 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdcd3b;
+    /* background-color: #f79e02; */
+    
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    border-radius: 50%;
+    padding: 0;
+    width: 80px;
+       
+}
+.vf{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+/* email and phone */
+.add{
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 5px;
+    
+}
+.add a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+
+    .header{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 120px;
+    }
+    .vf{
+        padding-top: 5px;
+        font-weight: bold;
+    }
+    .logo{
+        padding-top: 5px;
+        width: 60px;
+    }
+    .add{
+        padding: 0;
+    }
+}

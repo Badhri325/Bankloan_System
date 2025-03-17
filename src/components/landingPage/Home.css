@@ -1,0 +1,22 @@
+.dashbord {
+    background-image: url("../../assets/vecteezy_credit-card-with-dollar-bills-rotating-on-a-table_1622733-ezgif.com-video-to-gif-converter.gif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    z-index: -1;    
+}
+.videos{
+    width: 100%;
+}
+.hometext{
+    text-shadow: 4px 4px 8px blue;
+}
+@media (max-width: 768px) {
+    .dashbord{
+        height: 75vh;
+    }
+}

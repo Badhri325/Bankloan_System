@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d0e7fe;
+  }
+  
+  .services_style {
+    padding: 50px 20px;
+    background-color: #e9e8e8;
+  }
+  
+  /* .services_style h1.head {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  } */
+  
+  /* .services_style h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+  } */
+  
+  /* Service card styles */
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  }
+  
+  .service-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .service_logo1 {
+  margin-top: 20px; /* Specific margin for Business Loan logo */
+}
+  .service-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .service-details h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .service-details p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  .service-details .btn {
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .service-details .btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+  
+
+
+
+
+  /* Modal styles */
+  .modal-header {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 15px;
+    border-bottom: none;
+  }
+  
+  .modal-header h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal-body h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-body ul,
+  .modal-body ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-body ul li,
+  .modal-body ol li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .modal-body img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  .modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: none;
+  }
+  
+  .modal-footer .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .service-item {
+      max-width: 100%;
+      margin: 20px 10px;
+    }
+  
+    .modal-body img {
+      width: 100%;
+    }
+  }
+  

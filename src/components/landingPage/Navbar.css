@@ -1,0 +1,101 @@
+/* Container for the navbar */
+.menu-container {
+    background-color: rgb(0, 6, 100);
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+
+  }
+  
+  /* Flex container for the icon and links */
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  /* Burger icon styling */
+  .menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffffff;
+    display: none;
+  }
+  
+  /* Menu links styling */
+  .menu-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  /* Individual menu link styling */
+  .menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 10px 20px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    flex: 1; /* Spread links across full width */
+    text-align: center;
+  }
+  
+  /* Hover effect for links */
+  .menu-link:hover {
+    /* background-color: #bbff00; */
+    background-color: rgb(71, 71, 246);
+    color: white;
+    
+    
+   
+  }
+  
+  /* Active link styling */
+  .active{
+    font-weight: bold;
+    background-color: black;
+    color: #fdcd3b;
+    
+    /* background-color:yellow ; */
+  }
+  
+  /* Responsive menu for smaller screens */
+  @media (max-width: 768px) {
+    .menu-bar{
+      padding-left: 5px;
+    padding-bottom: 6px;
+    }
+    .menu-links {
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      /* background-color: aquamarine; */
+      background-color: rgb(0, 6, 100);
+      padding: 20px 0;
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .menu-links.show-menu {
+      display: flex;
+    }
+  
+    .menu-link {
+      width: 100%;
+      text-align: center;
+    }
+  }
